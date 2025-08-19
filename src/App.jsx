@@ -12,11 +12,11 @@ const Card = ({ title }) => {
 const App = () => {
 	return (
 		<div className="card-container">
-			<Card title="Jackie" rating={9} isCool={true} />
-			<Card title="Panam" rating={11} />
+			<Card title="Jackie" rating={8} isCool={true} />
+			<Card title="Panam" rating={10} />
 			<Card title="Judy" rating={7} />
-			<Card title="Lucy" rating={6} />
-			<Card title="David" rating={7} />
+			<Card title="David" rating={9} />
+			<Card title="Lucy" rating={10} />
 		</div>
 	);
 };

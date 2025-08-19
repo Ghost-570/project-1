@@ -26,10 +26,10 @@ h2 {
 }
 
 .card {
-	border: 2px soild aquamarine;
+	border: 2px soild #58b495;
 	padding: 20px;
 	margin: 10px;
-	background-color: aquamarine;
+	background-color: #58b495;
 	border-radius: 10px;
 	min-height: 100px;
 }

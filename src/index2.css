@@ -178,11 +178,78 @@ body {
 	Task details - Youn must copy the hero section font and apply it to h1 tag
 */
 
+@font-face {
+	font-family: font1;
+	src: url(/fonts/f27c092fffb8e521-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: font1;
+	src: url(/fonts/51420823def34e84-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 350;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: font1;
+	src: url(/fonts/dada5eafdc526c14-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: font1;
+	src: url(/fonts/887881099112dc91-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 695;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: font1;
+	src: url(/fonts/a5593dc8fd418baf-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
 h1 {
-	font-size: 64px;
-	font-family: __EaseGeometricATRIAL_ebe1c3,
-		__EaseGeometricATRIAL_Fallback_ebe1c3, Arial, sans-serif;
+	font-size: 140px;
+	font-family: font1, sans-serif;
 	line-height: 85%;
+	margin-bottom: 40px;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.light {
+	font-family: font1;
+	font-weight: 100;
+}
+
+.regular {
+	font-family: font1;
+	font-weight: 350;
+}
+
+.medium {
+	font-family: font1;
+	font-weight: 500;
+}
+
+.bold {
+	font-family: font1;
+	font-weight: 695;
+}
+
+.extra-bold {
+	font-family: font1;
+	font-weight: 900;
 }
 
 /* Card title styling - GALACTIC TEXT */

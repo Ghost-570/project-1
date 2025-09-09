@@ -19,6 +19,11 @@ const App = () => {
 				<Card title="David" rating={9} />
 				<Card title="Lucy" rating={10} />
 			</div>
+			<p class="light">This is light text.</p>
+			<p class="regular">This is regular text.</p>
+			<p class="medium">This is medium text.</p>
+			<p class="bold">This is bold text.</p>
+			<p class="extra-bold">This is extra bold text.</p>
 		</>
 	);
 };
